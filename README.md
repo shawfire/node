@@ -14,7 +14,7 @@ npm init    # generates a package.json file
 
 npm i co-mocha --save # install version of mocha that understands generator functions.
 ```
-## Consider TypeScript for your linting requirements.
+## Consider TypeScript for your linting requirements [reference](https://code.visualstudio.com/docs/languages/javascript).
 + Install the vscode-tslint extension if you are using the vs code editor.
 + npm install -g tslint 
 
@@ -30,4 +30,24 @@ npm i co-mocha --save # install version of mocha that understands generator func
   $ npm i should
   $ npm i co-fs         
   # the problem with mocha-co was a red herring (misleading) as the only problem was user-data.js was in the wrong location.
+```
+
++ Use [supertest](https://github.com/visionmedia/supertest) to enable testing of web layer.
+```
+npm i supertest
+npm i co-supertest
+```
+
+# vs code - Code -> Preferences -> Setting
+```
+{
+    "editor.tabSize": 2,
+    "tslint.jsEnable": true
+}
+```
+
+# [KoaJS](http://koajs.com/) next generation web framework.
+```
+npm i koa
+npm i koa-router
 ```

@@ -1,6 +1,6 @@
 var fs = require('co-fs');
 
-var userFile = './users.json'
+var userFile = './users.json';
 
 module.exports = {
     users: {
