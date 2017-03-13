@@ -24,8 +24,6 @@ describe('user data', function() {
         // 1. Get user count
         var users = yield data.users.get();
 
-        console.log(users);
-
         // 2. Save new user
         yield data.users.save({ name: 'John' });
 
