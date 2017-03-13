@@ -15,7 +15,7 @@
 //         
 
 require('co-mocha');
-
+var should = require('should');
 var data = require('../user-data.js');
 
 describe('user data', function() {
@@ -30,6 +30,6 @@ describe('user data', function() {
         // 3. Get new user count
         var newUsers = yield data.users.get();
         newUsers.length.should.equal(users.length + 1);
-    })
+    });
 
 });

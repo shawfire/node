@@ -1,25 +1,26 @@
 {
-  "name": "node",
-  "version": "1.0.0",
-  "description": "NodeJS project.",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shawfire/node.git"
-  },
-  "author": "John Shaw",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shawfire/node/issues"
-  },
-  "homepage": "https://github.com/shawfire/node#readme",
-  "dependencies": {
-    "co-mocha": "^1.2.0"
-  }
+    "name": "node",
+    "version": "1.0.0",
+    "description": "NodeJS project.",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shawfire/node.git"
+    },
+    "author": "John Shaw",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/shawfire/node/issues"
+    },
+    "homepage": "https://github.com/shawfire/node#readme",
+    "dependencies": {
+        "mocha": "^1.18",
+        "co-mocha": "^1.2.0"
+    }
 }

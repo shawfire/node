@@ -17,3 +17,17 @@ npm i co-mocha --save # install version of mocha that understands generator func
 ## Consider TypeScript for your linting requirements.
 + Install the vscode-tslint extension if you are using the vs code editor.
 + npm install -g tslint 
+
+```
+# trouble shooting
+```
+  $ npm install         # complaining it mocha-co needs mocha@^1.18
+  $ npm uninstall -g mocha
+  $ npm i mocha@^1.18 -g
+  $ npm i mocha-co
+  $ mocha --harmony
+  $ mocha --version     # still no joy ???
+  $ npm i should
+  $ npm i co-fs         
+  # the problem with mocha-co was a red herring (misleading) as the only problem was user-data.js was in the wrong location.
+```
