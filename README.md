@@ -14,3 +14,6 @@ npm init    # generates a package.json file
 
 npm i co-mocha --save # install version of mocha that understands generator functions.
 ```
+## Consider TypeScript for your linting requirements.
++ Install the vscode-tslint extension if you are using the vs code editor.
++ npm install -g tslint 

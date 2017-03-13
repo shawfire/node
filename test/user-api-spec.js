@@ -7,8 +7,16 @@
 //      2. Save new user
 //      3. Get new user count
 //
+// Usage:
+//  $ npm init                  # create package.json
+//  $ npm i -g mocha            # install mocha globally
+//  $ npm i co-mocha --save     # support generator functions
+//  $ mocha                     # run all #spec.js files in the directory test   
+//         
 
 require('co-mocha');
+
+var data = require('../user-data.js');
 
 describe('user data', function() {
 
