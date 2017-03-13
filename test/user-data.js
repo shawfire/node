@@ -1,3 +1,7 @@
 module.exports = {
-    users: {}
+    users: {
+        get: function() {
+
+        }
+    }
 }
